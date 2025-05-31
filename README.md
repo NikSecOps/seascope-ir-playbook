@@ -49,9 +49,4 @@ Contains detailed:
 - 🔹 **VLAN Segmentation** to isolate sensors, edge devices, and SCADA
 - 🔹 **Zero Trust Enforcement** through NAC, MFA, and least privilege
 
-*(Diagrams available in `images/` folder – coming soon)*
-
----
-
-## 📂 File Structure
 
