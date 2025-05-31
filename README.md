@@ -1,39 +1,55 @@
-# seascope-ir-playbook
-SCADA Cybersecurity Incident Response Playbook 
-# SeaScope – SCADA Cybersecurity Incident Response Playbook ♻️🔥🛡️
+# SeaScope IR Playbook ♻️🔥 – Securing Waste Heat SCADA Systems
 
-A comprehensive cybersecurity playbook focused on protecting **waste heat management SCADA systems** from cyber threats. This project was developed as part of a capstone at York University and follows standards such as **NIST 800-82**, **IEC 62443**, and **OWASP IoT**.
+A cybersecurity playbook developed to protect **waste heat recovery SCADA infrastructure**. This capstone project is aligned with industry standards like **NIST 800-82**, **IEC 62443**, and **OWASP IoT**. It includes policies, architecture, and technical implementations to secure industrial control systems (ICS).
 
 ---
 
-## 📌 Overview
+## 🧠 Project Overview
 
-SeaScope Technologies is an industrial operation specializing in **waste heat recovery** systems. This cybersecurity playbook outlines the controls, policies, and technical architectures necessary to protect SCADA and IoT components from internal and external threats.
+**SeaScope Technologies** focuses on industrial-scale **waste heat recovery systems**. This playbook delivers:
 
-### Key Highlights:
-- Defense-in-depth SCADA architecture
-- Network segmentation using VLANs and firewalls
-- ACL and VPN configuration for secure access
-- Insider threat detection via SIEM and behavior audits
-- Disaster recovery and ransomware response playbooks
-- Encryption and key management for IoT and data at rest
-
----
-
-## 📄 Project Report
-
-📥 **[Download the full playbook (PDF)](./SeaScope_Playbook.pdf)**  
-This includes diagrams, rule sets, access control logic, and policy definitions.
+- 🔐 Network segmentation & Zero Trust architecture
+- 🛡️ IDS/IPS rule sets for threat detection (Zeek, Suricata)
+- 📶 VPN, ACLs, VLANs for secure remote access
+- 📊 SIEM integration for anomaly detection (Splunk, QRadar)
+- 🚨 Insider threat monitoring and access controls
+- 🔁 Business Continuity & Disaster Recovery playbook
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 📄 Download the Full Playbook (PDF)
 
-- 🔍 **SIEM**: Splunk, QRadar (log monitoring, alerting)
-- 🔐 **IDS/IPS**: Suricata, Zeek, Deep Packet Inspection (DPI)
-- 🧱 **Infrastructure**: VLANs, RBAC, Zero Trust, IPsec VPN
-- 📊 **Monitoring**: Nagios, Wireshark
-- 🔄 **Automation**: ACLs, behavioral analysis, SOAR (optional)
+📥 [Click here to view](./SeaScope_Playbook.pdf)
+
+Contains detailed:
+- Network design & segmentation diagrams
+- Firewall and ACL rule logic
+- Encryption & key management policy
+- IoT device security and OWASP Top 10 alignment
+- Disaster recovery testing & ransomware response
+
+---
+
+## 🧰 Key Technologies Used
+
+| Category               | Tools & Techniques                            |
+|------------------------|-----------------------------------------------|
+| Network Monitoring     | Wireshark · Zeek · Suricata                   |
+| SIEM & Alerting        | Splunk · IBM QRadar · UEBA                    |
+| Access Control         | ACLs · RBAC · MFA · VLANs                     |
+| Communication Security | IPsec VPN · TLS 1.3 · DPI                     |
+| Frameworks & Standards | NIST 800-82 · IEC 62443 · OWASP IoT Top 10    |
+
+---
+
+## 🧱 Architecture Overview
+
+- 🔹 **Zones:** Corporate IT, Industrial SCADA, DMZ, SIEM/SOC
+- 🔹 **Protocols Secured:** Modbus, MQTT, OPC UA
+- 🔹 **VLAN Segmentation** to isolate sensors, edge devices, and SCADA
+- 🔹 **Zero Trust Enforcement** through NAC, MFA, and least privilege
+
+*(Diagrams available in `images/` folder – coming soon)*
 
 ---
 
