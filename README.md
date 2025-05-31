@@ -17,9 +17,9 @@ A cybersecurity playbook developed to protect **waste heat recovery SCADA infras
 
 ---
 
-## 📄 Download the Full Playbook (PDF)
+## 📄 View the Full Playbook (PDF)
 
-📥 [Click here to view](./SeaScope_Playbook.pdf)
+📥 [Click here to view]([./SeaScope_Playbook.pdf](https://drive.google.com/file/d/1W_Q-Tw16sB3yZ0420-M1wYpxZ7akDjRO/view?usp=sharing))
 
 Contains detailed:
 - Network design & segmentation diagrams
