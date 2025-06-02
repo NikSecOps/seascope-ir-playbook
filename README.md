@@ -15,7 +15,6 @@ A cybersecurity playbook developed to protect **waste heat recovery SCADA infras
 - 📊 SIEM integration for anomaly detection (Splunk, QRadar)
 - 🚨 Insider threat monitoring and access controls
 - 🔁 Business Continuity & Disaster Recovery playbook
-[Autopsy DFIR.pdf](https://github.com/user-attachments/files/20556097/Autopsy.DFIR.pdf)
 
 ---
 
