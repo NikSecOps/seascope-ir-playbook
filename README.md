@@ -1,4 +1,5 @@
 # SeaScope IR Playbook ♻️🔥 – Securing Heat Waste SCADA Systems
+> 🔐 *This project is based on academic work conducted in collaboration with SeaScope Technologies and contains no proprietary or confidential information.*
 
 A cybersecurity playbook developed to protect **waste heat recovery SCADA infrastructure**. This capstone project is aligned with industry standards like **NIST 800-82**, **IEC 62443**, and **OWASP IoT**. It includes policies, architecture, and technical implementations to secure industrial control systems (ICS).
 
